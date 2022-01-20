@@ -17,8 +17,12 @@
 //const tweet = 'Aprendiendo javaScript con el curso de Desarrollo Web Completo';
 //console.log(tweet.indexOf('javaScript')) ;
 
-const producto = 'Monitor de 20"';
-const producto2 = 'Monitor HD"';
+//const producto = 'Monitor de 20"';
+//const producto2 = 'Monitor HD"';
 
-console.log( producto.length) ;
-console. log(producto2) ;
+//console.log( producto.length) ;
+//console. log(producto2) ;
+
+const producto = 'Aprendiendo JavaScript con el curso de Desarrollo Web Completo'
+
+console.log (producto. length) ;
