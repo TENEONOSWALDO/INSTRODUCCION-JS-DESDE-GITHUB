@@ -8,11 +8,17 @@
 //console.log(producto1);
 //console.log(producto3);
 
-const producto = 'Monitor de 20"';
-const producto2 = 'Monitor HD';
+//const producto = 'Monitor de 20"';
+//const producto2 = 'Monitor HD';
 
-console.log(producto.length)
+//console.log(producto.length)
 // Indexof
 
-const tweet = 'Aprendiendo javaScript con el curso de Desarrollo Web Completo';
-console.log(tweet.indexOf('javaScript')) ;
+//const tweet = 'Aprendiendo javaScript con el curso de Desarrollo Web Completo';
+//console.log(tweet.indexOf('javaScript')) ;
+
+const producto = 'Monitor de 20"';
+const producto2 = 'Monitor HD"';
+
+console.log( producto.length) ;
+console. log(producto2) ;
