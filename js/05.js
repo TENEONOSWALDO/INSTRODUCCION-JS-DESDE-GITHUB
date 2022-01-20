@@ -20,3 +20,8 @@ console.log(numero2 / numero1);
 console.log(numero2 % numero1);
 
 //Para explicar lo que es el modulo ( % ) hagamos lo siguiente
+
+const numero7 = 7 ;
+const numero8 = 6 ; 
+
+console.log(numero7 % numero8);//El valor que nos muestra en la pantalla es  el residuo.
