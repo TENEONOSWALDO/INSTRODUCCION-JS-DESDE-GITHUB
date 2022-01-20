@@ -24,5 +24,14 @@
 //console. log(producto2) ;
 
 const producto = 'Aprendiendo JavaScript con el curso de Desarrollo Web Completo'
-
+const producto2 = 'Monitor HD'
 console.log (producto. length) ;
+
+const tweet = 'Aprendiendo JavaScript con el curso de Desarrollo Web Completo';
+//Indexof (retorna en que posicion esta)
+console.log(tweet.indexOf('JavaScript'));
+console.log(producto2.indexOf('Monitor'));
+
+//Include  (Retorna true o false)
+console.log(tweet.includes('JavaScript'));
+console.log(producto2.includes('Tablet'));//-1. Signififca que no existe .
