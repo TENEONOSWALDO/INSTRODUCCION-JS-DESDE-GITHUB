@@ -1,8 +1,15 @@
 //Booleans
-const boolenas1 = true;
-const boolenas2 = false;
-const boolenas3 = "true";
+const boolena1 = true;
+const boolena2 = false;
+const boolena3 = "true";
 
-console.log( boolenas1 ) ;
-console.log( boolenas2 ) ;
-console.log( boolenas3 ) ;
+console.log( boolena1 ) ;
+console.log( boolena2 ) ;
+console.log( boolena3 ) ; // Eso es un string en
+
+console.log( typeof boolena1 ) ;
+console.log( typeof boolena2 ) ;
+console.log( typeof boolena3 ) ;
+
+const boolean3 = new Boolean( true );
+console.log(typeof boolean3)
