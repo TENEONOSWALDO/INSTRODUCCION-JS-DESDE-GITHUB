@@ -4,9 +4,16 @@ const producto = {
     precio : 300,
     disponible : true
     }
+//Forma anterior
+    //const precioProducto = producto.precio ;
+    //const nombreProducto = producto.nombreProducto ;
 
-    const precioProducto = producto.precio ;
-    const nombreProducto = producto.nombreProducto ;
+    //console.log(precioProducto)
+    //console.log(nombreProducto);
 
+//Destructuring de un objeto.
 
-    console.log(nombreProducto);
+const {precio, nombreProducto} = producto;
+
+console.log (precio) ;
+console.log (nombreProducto) ;
