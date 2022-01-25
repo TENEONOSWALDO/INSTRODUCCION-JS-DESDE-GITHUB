@@ -50,5 +50,16 @@ meses.pop();
 
 //.shift elimina elementos al inicio de un arreglo.
 meses.shift();
+
+
+// Con splice se eliminan elementos intermedios de un arreglo.
+
+meses.splice(2,1)// LLega a la posicion 2 y elimina un solo elemento..
 console.table(meses);
+// Lo ideal es mantener el arreglo original y  crear un nuevo arreglo, creando o quitando elementos.
+
+// Rest Operator o Spread Operator
+
+const nuevoArreglo =  [ ...meses,'julio'];
+console.table(nuevoArreglo);
 
