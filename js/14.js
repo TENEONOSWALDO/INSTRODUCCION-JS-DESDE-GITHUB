@@ -25,3 +25,11 @@ console.log(meses.length);
 
 //Iteradores la cantidad de elementos
 
+numeros.forEach(function(numero) {
+    console.log(numero);
+})
+
+meses.forEach(function(mes){
+    console.log(mes)
+})
+
