@@ -16,4 +16,12 @@ console.log(arreglo);
 
 // Acceder a los valores de un arreglo
 
-console.log(numeros[4]);
+console.log(arreglo[4])
+
+//Conocer la cantidad de elementos que tiene un arreglo
+
+console.log(arreglo.length);
+console.log(meses.length);
+
+//Iteradores la cantidad de elementos
+
