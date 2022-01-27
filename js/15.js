@@ -1,3 +1,5 @@
+
+// Array Methods
 const meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'];
 
 const carrito = [
@@ -10,4 +12,20 @@ const carrito = [
 { nombre : 'Bocinas', precio: 300 },
 { nombre : 'Laptop', precio: 800 },
 ];
-//
+//  forEach
+meses.forEach(function(mes) { 
+    console.log(mes);
+});
+
+meses.forEach(function(mes) {  // EStructura de control
+    if ( mes=='Marzo') {
+        console.log ('Marzo si existe');
+    }
+});
+
+//includes
+const resultado = meses.includes('Marzo');
+console.log(resultado);
+
+//const resultado = meses.includes('Diciembre');
+//console.log(resultado);
