@@ -21,4 +21,4 @@ total= agregarCarrito(600);
 
 console.log(total);
 const totalApagar = calcularImpuesto(total);
-console.log('El total a pagar con impuestos es de: ${total Apagar}');
+console.log(`El total a pagar con impuesto es de: $${totalApagar}`);
