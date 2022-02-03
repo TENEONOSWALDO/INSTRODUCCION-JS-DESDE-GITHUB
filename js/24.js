@@ -33,3 +33,9 @@ const carrito = [
     for(let i = 0 ; i < carrito.length; i++) {
             console.log( carrito [i]. nombre) ;
     }
+
+
+    // While Loop Loop Se ejecuta mientras una condicion sea evaluada como verdadera.
+
+
+let i = o ;
