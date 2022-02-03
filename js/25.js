@@ -27,9 +27,8 @@ const carrito = [
 
 //ForEach
 
-const arreglo1 = carrito.forEach (producto => producto.nombre);
+carrito.forEach (producto => console.log(producto.nombre));
 
-const arreglo2 = carrito.map (producto => producto.nombre);
+const arreglo2 = carrito.map ( producto => `${producto.nombre} - ${producto.precio}`);
 
-console.log(arreglo1);
 console.log(arreglo2);
