@@ -18,8 +18,18 @@ const carrito = [
 //    console.log(producto.nombre)
 //});
 
+//carrito.forEach(producto=>console.log (producto.nombre));//Mostrar los elementos en pantalla
 
-carrito.forEach ( producto =>console.log(producto.nombre));
 
 
-  //map
+  //map Crea  un nuevo arreglo
+//carrito.map( producto => console.log(producto.nombre));//Mostrar un nuevo arreglo.
+
+//ForEach
+
+const arreglo1 = carrito.forEach (producto => producto.nombre);
+
+const arreglo2 = carrito.map (producto => producto.nombre);
+
+console.log(arreglo1);
+console.log(arreglo2);
