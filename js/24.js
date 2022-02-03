@@ -41,9 +41,20 @@ for (let i = 0; i < carrito.length; i++) {
  //   i++; // incremento
 //}
 
-let i = 1 ;
-while( i <= 100) { // Condicion
- if ( i % 2 === 0)
- console.log( `El numero ${i} es par`)
- i++ ;
-}
+//let i = 1 ;
+//while( i <= 100) { // Condicion
+//    if ( i % 2 === 0) {
+//    console.log( `El numero ${i} es par`)
+//} else {
+//    console.log(`El numero ${i} es impar`)
+//}
+//
+//    i++;
+//}
+
+// Do While loop
+ let i = 100;
+ do{
+    console.log(i);
+      i++;
+ } while(i < 10);
